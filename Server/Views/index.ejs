@@ -10,19 +10,19 @@
   <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="/Content/app.css">
 </head>
-<body>
+<body class="page-container">
   <!-- Header -->
   <header>
     <%- include('./components/header.ejs'); %>
   </header>
 
   <!-- Main Content-->
-  <main class="mt-5 pt-5">
+  <main class="mt-5 pt-5 content-wrap">
     <%- include('./content/' + page + '.ejs'); %>
   </main>
   
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <%- include('./components/footer.ejs'); %>
   </footer>
 

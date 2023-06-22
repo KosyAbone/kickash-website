@@ -17,7 +17,7 @@ function DisplayServicesPage(req, res, next) {
 
 
 function DisplayFeaturesPage(req, res, next) {
-    res.render('index', { title: 'Our Features', page: 'projects' });
+    res.render('index', { title: 'Our Features', page: 'features' });
 }
 
 
