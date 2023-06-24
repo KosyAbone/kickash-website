@@ -1,5 +1,149 @@
 <div class="container">
-      <h1>Our Latest Projects!</h1>
+      <div class = "row background-container">
+            <div class = "col-md-6 d-flex flex-column justify-content-center">
+                  <div class="content-container" style="margin-left: 100px; opacity: 1;">
+                        <h2>Track your progress</h2>
+                        <p style="margin-top: 20px;">
+                              On signing up with us, get your personalised dashboard that helps
+                              you track your progress throughout
+                              <br>
+                              Users can set realistic and achievable goals to gradually reduce their smoking habit. KickAsh will provide guidance on
+                              goal setting and monitor progress, celebrating milestones and offering support along the way.
+                        </p>
+                  </div>
+            </div>
+            <div class = "col-md-6 d-flex justify-content-center align-items-center">
+                  <img src="Assets/images/DashboardScreen.png" style="height: 500px; width: 230px; margin-right: 100px; visibility: visible;">
+            </div>
+      </div>
 
-      <!-- Your Latest App Info goes here -->
+      <div class="row background-container2" style="margin-top: 30px;">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                  <img src="Assets/images/SmokeTriggerQuestion.png"
+                        style="height: 500px; width: 230px; margin-left: 100px; visibility: visible;">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                  <div class="content-container" style="margin-right: 100px; opacity: 1;">
+                        <h2>An app that is curated just for you</h2>
+                        <p style="margin-top: 20px;">
+                              KickAsh respects user's individuality and offers a tailored approach to quitting smoking. This increases the likelihood
+                              of successful long-term cessation.
+                              <br>
+                              KickAsh will keep a check on its users, that even includes their cravings or smoke triggers
+                        </p>
+                  </div>
+            </div>
+      </div>
+
+      <div class="row background-container3" style="margin-top: 30px;">
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                  <div class="content-container" style="margin-left: 100px; opacity: 1;">
+                        <h2>Supportive Community</h2>
+                        <p style="margin-top: 20px;">
+                              KickAsh will foster a supportive community within the app, where you can connect, share their experiences, and provide
+                              encouragement to one another.
+                        </p>
+                  </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                  <img src="Assets/images/Community.png"
+                        style="height: 500px; width: 230px; margin-right: 100px; visibility: visible;">
+            </div>
+      </div>
+
+      <div class = "row background-container4" style="margin-top: 30px; margin-bottom: 40px;">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                  <img src="Assets/images/ResourceArticles.png"
+                        style="height: 500px; width: 230px; margin-left: 100px; visibility: visible;">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                  <div class="content-container" style="margin-right: 100px; opacity: 1;">
+                        <h2>Educate and motivate yourself</h2>
+                        <p style="margin-top: 20px;">
+                              The app will offer a curated selection of educational resources, coping strategies, and techniques to manage cravings
+                              and withdrawal symptoms.
+                        </p>
+                  </div>
+            </div>
+      </div>
 </div>
+
+<style>
+      .background-container {
+            position: relative;
+      }
+
+      .background-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('Assets/images/FeaturePageImage1_Latest.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+            z-index: -1;
+      }
+
+      .background-container2 {
+            position: relative;
+      }
+
+      .background-container2::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('Assets/images/FeaturePageImage2_latest.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+            z-index: -1;
+            transform: scaleX(-1);
+            filter: FlipH; /* For IE/Edge Compatibility */
+      }
+
+      .background-container3 {
+            position: relative;
+      }
+
+      .background-container3::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('Assets/images/FeaturePageImage4.webp');
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+            z-index: -1;
+      }
+
+      .background-container4 {
+            position: relative;
+      }
+
+      .background-container4::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('Assets/images/FeaturePageImage4.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+            z-index: -1;
+      }
+</style>
