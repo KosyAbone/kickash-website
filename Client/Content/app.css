@@ -20,3 +20,35 @@
     width: 100%;
     height: 2rem;           
 }
+
+.Home-row-container {
+    font-style: Helvetica;
+    width: 2000px;
+    display: flex;
+}
+.homecontainer{
+    display: flex;
+    padding: 2rem;
+    
+}
+.SlayImage{
+    height: 262;
+    width: 193;
+    top: 0%;
+}
+.Slaybar{
+    background-color: #e8def8;
+    width: auto;
+}
+
+.maincontent{
+    position: relative;
+  z-index: 1;
+  background-image: url('Assets/images/slaydesign');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.Information-container{
+    
+}
