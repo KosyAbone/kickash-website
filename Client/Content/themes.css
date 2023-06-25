@@ -1,0 +1,35 @@
+@import 'colors.css';
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.secondary-font, .secondary-font * {
+    color: var(--secondary-font-color);
+}
+
+.primary-background {
+    background-color: var(--primary-background-color);
+}
+
+.primary-font, .primary-font * {
+    color: #000000;
+}
+
+.primary .active-nav {
+    text-decoration: underline;
+    background-color: var(--primary-color);
+}
+
+.primary .nav-item .nav-link:hover {
+    color: var(--secondary-font-color);
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: var(--primary-color);
+}
