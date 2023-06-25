@@ -1,0 +1,21 @@
+@import 'colors.css';
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.secondary-font, .secondary-font * {
+    color: var(--secondary-font-color);
+}
+
+.primary-background {
+    background-color: var(--primary-background-color);
+}
+
+.primary-font, .primary-font * {
+    color: #000000;
+}
