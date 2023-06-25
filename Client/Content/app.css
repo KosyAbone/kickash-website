@@ -56,17 +56,6 @@ margin: 0 auto;
     color: #FF0000
 }
 
-.Home-row-container {
-    font-style: Helvetica;
-    width: 2000px;
-    display: flex;
-}
-.homecontainer{
-    display: flex;
-    padding: 2rem;
-    
-}
-
 .maincontent{
     position: relative;
   z-index: 1;
@@ -74,4 +63,4 @@ margin: 0 auto;
   background-size: cover;
   background-position: center;
   padding: 20px;
-}
+} 
