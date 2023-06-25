@@ -21,7 +21,7 @@ export function DisplayServicesPage(req: express.Request, res: express.Response,
 // Controller Logic to display your projects page
 export function DisplayProjectsPage(req: express.Request, res: express.Response, next: express.NextFunction): void
 {
-    res.render('index', { title: 'Our Projects', page: 'projects' });
+    res.render('index', { title: 'Our Features', page: 'features' });
 }
 
 // Controller Logic to display your projects page
