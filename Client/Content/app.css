@@ -15,7 +15,6 @@
 }  
 
 .active-nav {
-    border-bottom: 1px solid #FEF7FF;
     opacity: 1;
     font-weight: bolder; 
 }
