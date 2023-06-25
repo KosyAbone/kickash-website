@@ -17,7 +17,7 @@ router.get('/about', (req, res, next) => DisplayAboutPage(req, res, next) );
 router.get('/services', (req, res, next) => DisplayServicesPage(req, res, next) );
 
 /* GET Projects Page */
-router.get('/projects', (req, res, next) => DisplayProjectsPage(req, res, next) );
+router.get('/features', (req, res, next) => DisplayProjectsPage(req, res, next) );
 
 /* GET Contact Page */
 router.get('/contact', (req, res, next) => DisplayContactPage(req, res, next) );
