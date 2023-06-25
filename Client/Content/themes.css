@@ -18,6 +18,7 @@
 
 .primary-font, .primary-font * {
     color: #000000;
+    font-style: Helvetica;
 }
 
 .primary .active-nav {
