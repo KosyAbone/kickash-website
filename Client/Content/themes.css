@@ -29,3 +29,7 @@
     color: var(--secondary-font-color);
     text-decoration: underline;
 }
+
+.btn {
+    background-color: var(--primary-color);
+}
