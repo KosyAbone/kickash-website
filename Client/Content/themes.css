@@ -18,16 +18,19 @@
 
 .primary-font, .primary-font * {
     color: #000000;
+    font-style: Helvetica;
 }
 
 .primary .active-nav {
-    text-decoration: underline;
     background-color: var(--primary-color);
+    opacity: 1;
+    font-weight: bolder; 
+    border-bottom: 1px solid var(--secondary-font-color);
 }
 
 .primary .nav-item .nav-link:hover {
     color: var(--secondary-font-color);
-    text-decoration: underline;
+    opacity: 1; 
 }
 
 .btn {
