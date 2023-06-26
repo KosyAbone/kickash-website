@@ -28,6 +28,11 @@
     height: 2rem;           
 }
 
+.image-container-xl {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .image-container-lg {
     max-width: 500px;
     margin: 0 auto;
