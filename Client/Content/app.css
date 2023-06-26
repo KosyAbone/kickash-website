@@ -1,11 +1,12 @@
 /* Custom CSS goes here */
+
 .page-container {
     position: relative;
     min-height: 100vh;
 }
 
 .content-wrap {
-    padding-bottom: 2rem;    
+    padding-bottom: 2rem;   
 }
 
 .nav-link {
@@ -59,9 +60,13 @@ margin: 0 auto;
   background-image: url('Assets/images/slaydesign');
   background-size: cover;
   background-position: center;
+  padding: 20px;
 } 
 
 input, textarea{
     /* width: 200px; */
     max-width: 800px;
+}
+.services{
+    position: relative;
 }
