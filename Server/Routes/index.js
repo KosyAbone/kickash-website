@@ -12,5 +12,6 @@ router.get('/about', (req, res, next) => (0, Controllers_1.DisplayAboutPage)(req
 router.get('/services', (req, res, next) => (0, Controllers_1.DisplayServicesPage)(req, res, next));
 router.get('/features', (req, res, next) => (0, Controllers_1.DisplayProjectsPage)(req, res, next));
 router.get('/contact', (req, res, next) => (0, Controllers_1.DisplayContactPage)(req, res, next));
+router.post('/contact', (req, res, next) => (0, Controllers_1.SendMailFromContactPage)(req, res, next));
 exports.default = router;
 //# sourceMappingURL=index.js.map

@@ -6,6 +6,7 @@ import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 
 import indexRouter from '../Routes/index';
+import bodyParser from 'body-parser';
 
 let app = express();
 
@@ -39,5 +40,8 @@ app.use(function(err: HttpError, req: any, res: any, next: NextFunction): void
   res.status(err.status || 500);
   res.render('error');
 });
+
+// Middleware to parse the form data
+app.use(bodyParser.urlencoded({ extended: true }));
 
 export default app;

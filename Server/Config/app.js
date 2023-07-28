@@ -9,6 +9,7 @@ const path_1 = __importDefault(require("path"));
 const cookie_parser_1 = __importDefault(require("cookie-parser"));
 const morgan_1 = __importDefault(require("morgan"));
 const index_1 = __importDefault(require("../Routes/index"));
+const body_parser_1 = __importDefault(require("body-parser"));
 let app = (0, express_1.default)();
 app.set('views', path_1.default.join(__dirname, '../Views'));
 app.set('view engine', 'ejs');
@@ -28,5 +29,6 @@ app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error');
 });
+app.use(body_parser_1.default.urlencoded({ extended: true }));
 exports.default = app;
 //# sourceMappingURL=app.js.map
